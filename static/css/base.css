@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/background.jpg') no-repeat center center fixed;
+    background: url('/media/homepage_background_image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,6 +67,10 @@ body {
 .text-black {
     color: #000 !important;
 }
+
+.text-shadow {
+    text-shadow: 2px 2px white;
+  }
 
 .border-black {
     border: 1px solid black !important;
