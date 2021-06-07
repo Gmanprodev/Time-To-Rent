@@ -204,6 +204,17 @@ input[name='q']::placeholder {
   }
 }
 
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
+
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
