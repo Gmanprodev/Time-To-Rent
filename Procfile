@@ -1,0 +1,1 @@
+web: gunicorn time_to_rent.wsgi:application
