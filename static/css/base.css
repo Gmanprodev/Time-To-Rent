@@ -337,5 +337,10 @@ input[name='q']::placeholder {
     }
 }
 
+@media (max-width: 580px) {
+    .scroll-up-position {
+        
+    }
+}
 
 
