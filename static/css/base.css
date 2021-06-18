@@ -15,6 +15,10 @@ body {
     overflow: hidden;
 }
 
+.dropdown-menu {
+    right: 0;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -313,7 +317,7 @@ input[name='q']::placeholder {
     }
 
     .nav-link i.fa-lg {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .navbar-toggler {
