@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Contact Us</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <p class="text-muted">Please fill out the form below to complete your order</p>
+            <form action="{% url 'contact' %}" method="POST" id="contact-form">
+                {% csrf_token %}
+                <fieldset class="rounded px-3 mb-5">
+                    <legend class="fieldset-label small text-black px-2 w-auto">Details</legend>
+                    {{ contact_form.full_name | as_crispy_field }}
+                    {{ contact_form.email | as_crispy_field }}
+                    {{ contact_form.contact_reason | as_crispy_field }}
+                    {{ contact_form.message | as_crispy_field }}
+                </fieldset>
+            </form>
+            <br>
+            <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                <span class="text-uppercase">Send</span>
+            </a>
+        </div>
+    </div>
+{% endblock %}
