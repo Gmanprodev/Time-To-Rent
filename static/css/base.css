@@ -11,6 +11,10 @@ body {
     font-family: 'Lato';
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
