@@ -23,18 +23,12 @@
             <p class="text-muted">Please fill out the form below to complete your order</p>
             <form action="{% url 'contact' %}" method="POST" id="contact-form">
                 {% csrf_token %}
-                <fieldset class="rounded px-3 mb-5">
-                    <legend class="fieldset-label small text-black px-2 w-auto">Details</legend>
-                    {{ contact_form.full_name | as_crispy_field }}
-                    {{ contact_form.email | as_crispy_field }}
-                    {{ contact_form.contact_reason | as_crispy_field }}
-                    {{ contact_form.message | as_crispy_field }}
-                </fieldset>
+                {{ form|crispy }}
             </form>
             <br>
-            <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0 btn-lg">
+            <button id="submit-button" class="btn btn-black rounded-0">
                 <span class="text-uppercase">Send</span>
-            </a>
+            </button>
         </div>
     </div>
 {% endblock %}
