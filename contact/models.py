@@ -1,6 +1,6 @@
 from django.db import models
 
-contact_choices = [
+customer_query = [
     ('general_query', 'General Query'),
     ('technical_issue', 'Technical Issue'),
     ('plan_query', 'Plan Query'),
