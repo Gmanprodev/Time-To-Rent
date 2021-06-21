@@ -1,6 +1,6 @@
 from django.db import models
 
-customer_query = [
+contact_choices = [
     ('general_query', 'General Query'),
     ('technical_issue', 'Technical Issue'),
     ('plan_query', 'Plan Query'),
@@ -14,6 +14,7 @@ class Contact(models.Model):
     email = models.EmailField(max_length=50, null=False, blank=False)
     contact_reason = models.CharField(
         max_length=50,
+        choices=contact_choices,
         null=False,
         blank=False,
         default='general_query')
