@@ -23,7 +23,7 @@ def contact(request):
             # Send an email letting the admin know about a new form submission
             send_mail(
                 'Time To Rent - New Contact Form',
-                'A new email has been recieved from:'
+                'A new email has been received from:'
                 f'\n\n{customer_name}'
                 f'\n{customer_email}'
                 '\n\n\nCustomer Query:'
