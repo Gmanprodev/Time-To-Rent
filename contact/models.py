@@ -3,8 +3,8 @@ from django.db import models
 contact_choices = [
     ('general_query', 'General Query'),
     ('technical_issue', 'Technical Issue'),
-    ('plan_query', 'Plan Query'),
     ('delivery', 'Delivery'),
+    ('collection', 'Collection'),
 ]
 
 
