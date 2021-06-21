@@ -15,14 +15,18 @@ def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
         customer_query = request.POST.get('message')
+        customer_email = request.POST.get('email')
+        customer_name = request.POST.get('full_name')
         if form.is_valid():
             form.save()
 
             # Send an email letting the admin know about a new form submission
             send_mail(
                 'Time To Rent - New Contact Form',
-                'You have a new contact form available to you on '
-                'Time To Rent. \n\n\nCustomer Query:'
+                'A new email has been recieved from:'
+                f'\n\n{customer_name}',
+                f'\n\n{customer_email}',
+                '\n\n\nCustomer Query:'
                 f'\n\n{customer_query}',
                 settings.DEFAULT_FROM_EMAIL,
                 [settings.DEFAULT_FROM_EMAIL],
