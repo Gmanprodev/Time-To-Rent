@@ -25,7 +25,7 @@ def contact(request):
                 'Time To Rent - New Contact Form',
                 'A new email has been recieved from:'
                 f'\n\n{customer_name}'
-                f'\n\n{customer_email}'
+                f'\n{customer_email}'
                 '\n\n\nCustomer Query:'
                 f'\n\n{customer_query}',
                 settings.DEFAULT_FROM_EMAIL,
