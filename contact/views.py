@@ -24,10 +24,10 @@ def contact(request):
             send_mail(
                 'Time To Rent - New Contact Form',
                 'A new email has been recieved from:',
-                f'\n\n{customer_name}',
-                f'\n\n{customer_email}',
+                customer_name,
+                customer_email,
                 '\n\n\nCustomer Query:',
-                f'\n\n{customer_query}',
+                customer_query,
                 settings.DEFAULT_FROM_EMAIL,
                 [settings.DEFAULT_FROM_EMAIL],
             )
