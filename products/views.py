@@ -74,7 +74,7 @@ def product_detail(request, product_id):
         )
         create_review_form.save()
         messages.success(request, 'Review successfully added')
-        return redirect('product_detail', product_detail)
+        return redirect('product_detail', product_id)
 
     context = {
         'product': product,
