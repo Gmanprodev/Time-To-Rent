@@ -1,4 +1,6 @@
 from django.db import models
+from django.contrib.auth.models import User
+from django.utils import timezone
 
 
 class Category(models.Model):
@@ -28,3 +30,14 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Review(models.Model):
+    """ A model to save and display watch reviews. """
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    review = models.TextField(max_length=1500, null=False, blank=False)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    date_posted = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return f"{self.user}' comment on {self.product}"
