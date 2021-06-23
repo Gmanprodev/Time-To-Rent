@@ -27,7 +27,7 @@ class CreateReview(forms.ModelForm):
         model = Review
         fields = ('review',)
 
-    comment_text = forms.CharField(
+    review = forms.CharField(
         label=False,
         widget=forms.Textarea(attrs={
             'rows': 2,
