@@ -99,7 +99,7 @@
                     </form>
                     <div class="col-12 pl-0">
                         {% for comment in review_comments %}
-                            {% if request.user.is_authenticated or request.user.is_superuser %}
+                            {% if comment.user == request.user or request.user.is_superuser %}
                                 <small class="ml-0">
                                     <a href="{% url 'edit_review' comment.id %}">Edit</a> | 
                                     <a class="text-danger" href="{% url 'delete_review' comment.id %}">Delete</a>
