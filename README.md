@@ -72,21 +72,26 @@ Target audience is:
 
 #### Business goals
 
-* Interactive web-app.
-* Fully functional web app.
+* Interactive website.
+* Fully functional website.
 * Intuitive design.
 * Easy to navigate.
 * To have as many registered users as possible.
 * Daily increases in user numbers.
-* Daily increases in tips being added.
+* Daily increases in reviews being added.
+* Make it as easy as possible for customers to complete a rental purchase.
+* Interactive communications with the customers at every stage of the rental process.
 
 
 #### Customer goals
 
 * Easy to navigate.
 * Easy to search for specific keywords.
-* To easily locate information.
+* Easily locate a product.
 * Easy to add and edit information.
+* Easy to register and login securley.
+* Email communication when an action is completed.
+
 
 Both business and customer goals are addressed through user stories.
 
@@ -95,38 +100,43 @@ Both business and customer goals are addressed through user stories.
 
 #### Renovate-it business
 
-* As a business, I want my web app to display industrial textured colours.
-* As a business, I want my web app to display simple to follow instructions.
-* As a business, I want my web app to be responsive on all devices.
-* As a business, I want a strong focus on mobile usability as most users will be veiwing the web app on mobile devices.
-* As a business, I want my web app to be interactive and offer real time feedback.
-* As a business, I want my web app to load quickly.
-* As a business, I want my web app to use as little of the users data as possible.
-* As a business, I want my web app to allow users to engage with us through different social media routes.
-* As a business, I want my web app to display clear high resolution images.
-* As a business, I want my web app to be usable for both left and right handed users.
-* As a business, I want my web app to have a low risk of accidently clicking more than one button at once on smaller screens sizes.
-* As a business, I want my web app to have a search function.
-* As a business, I want my web app to have images that are easily recognisable and associated with renovation categories.
+* As a business, I want my website to display clean, sleek lines and mechanical colours.
+* As a business, I want my website to display simple to follow instructions.
+* As a business, I want my website to be responsive on all devices.
+* As a business, I want a strong focus on mobile usability as most users will be veiwing the website on mobile devices.
+* As a business, I want my website to be interactive and offer real time feedback.
+* As a business, I want my website to load quickly.
+* As a business, I want my website to display clear high resolution images.
+* As a business, I want my website to be usable for both left and right handed users.
+* As a business, I want my website to have a low risk of accidently clicking more than one button at once on smaller screens sizes.
+* As a business, I want my website to have a search function.
+* As a business, I want my website to have a admin login so the site can be managed.
 
 #### The potential customer
 
-* As a customer, I want to know how the web app works and easy to follow instructions.
-* As a customer, I want to know when I take the wrong action or something doesn't work.
-* As a customer, I want the web app to be interactive with real time feedback.
-* As a customer, I want the the web app to be easy to use and navigate, particularly on mobile devices.
-* As a customer, I want to easily search for keywords relating to top tips.
-* As a customer, I want to easily sign up for an account.
-* As a customer, I want to know be able to view the tips I have added.
-* As a customer, I want to be able to save the tips I'm interested in to view at a later date.
-* As a customer, I want to be able to easily edit or delete tips I have added.
+* As a customer, I want the website to be responsive on all devices.
+* As a customer, I want to be able to access all of the pages from the Homepage.
+* As a customer, I want to be able to conduct a keyword search from any page.
+* As a customer, I want to be able to easily register an account.
+* As a customer, I want to be able to easily login.
+* As a customer, I want to be able to easily search by brand.
+* As a customer, I want to be able to set my profile prefences.
+* As a customer, I want to be able to access my basket from any page.
+* As a customer, I want to be able to access the Homepage from any page.
+* As a customer, I want to be able to adjust the items in the basket.
+* As a customer, I want to be able to see real time feedback when compelting an action.
+* As a customer, I want to be able to recieve email communications confirming the actions completed.
+* As a customer, I want to be able to read reviews on each product.
+* As a customer, I want to be able to add/edit/delete my own reviews.
+* As a customer, I want to be able to contact the business for any reason and to recieve confirmation of this action.
+* As a customer, I want to be able to view my past purchase history.
 
 #### The UX designer
 
 * As a UX designer, I want to track the user behaviour so that I can improve the user experience.
-    * As a UX designer, I want to track the user behaviour so that I can identify the possible user confusion over navigating the web app.
-* As a UX designer, I want to focus on the mobile design as most users will be using the web app on a mobile device.
-* As a UX designer, I want the web app to be intercative and give real time feedback when a user executes an action.
+    * As a UX designer, I want to track the user behaviour so that I can identify the possible user confusion over navigating the website.
+* As a UX designer, I want to focus on the mobile design as most users will be using the website on a mobile device.
+* As a UX designer, I want the website to be intercative and give real time feedback when a user executes an action.
   
 
 
