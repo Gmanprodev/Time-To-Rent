@@ -213,6 +213,9 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Contact**
     * A contact form which allows users to contact the business and the user recieves a confirmation email once successfully completed.
 
+* **404 & 500 Pages**
+    * Customised pages to fit in with the rest of the website.
+
 
 ### Features left to implement
 
@@ -241,7 +244,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * Data Schema - 
 Click [here](https://github.com/Gmanprodev/Renovate-it/blob/master/documentation/testing/test_images/data_schema.jpg?raw=true)
 
-### Libraries
+### Libraries/Frameworks
 
 * [Bootstrap](https://getbootstrap.com/) - used for responsive grid system, styling and modals.
 * [JQuery](https://jquery.com/) - were used in conjunction with the Materialize library.
@@ -249,6 +252,13 @@ Click [here](https://github.com/Gmanprodev/Renovate-it/blob/master/documentation
 * [Google Fonts](https://fonts.google.com/) - used for the Lato font.
 * [Unsplash](https://unsplash.com/) - used for images.
 * [Favicon.io](https://favicon.io/) - used for creating a favicon.
+* [Django](https://www.djangoproject.com/) - a Python framework.
+
+
+### Media Storage
+
+* [AWS](https://aws.amazon.com/) - cloud storage for static and media files.
+
 
 ### Tools
 
@@ -365,16 +375,17 @@ USE_AWS
 3. Click `Enable Automation Deploys`.
 
 
-## Credits
+### Credits
 
-### Content
+#### Content
 
-All content in this web app was written by me.
+* All of the watch descriptions were copied from various online watch retailers.
 
 ### Media
 
 #### All Images
-   * All of the images used in the web app are free and do not require permission to use.
+
+* All of the watch images were copied from various online watch retailers.
 
 
 
@@ -382,7 +393,7 @@ All content in this web app was written by me.
 
 #### Examples and Tutorials and Samples
 
-* [Code Institute](https://codeinstitute.net/) - I used the Task Manager mini project to build my code foundations and then completely customised it thereafter.
+* [Code Institute](https://codeinstitute.net/) - I used the Ado Boutique mini project tutorials to build the bulk of my website and then customised the products on offer. I also built a custom CONTACT app and a REVIEWS model/view in the PRODUCTS app.
    
 
 #### Pages used for information
@@ -397,7 +408,7 @@ All content in this web app was written by me.
 #### I received advice and encouragement from
    * Akshat (my mentor)
    * Tutor Support (CI online webchat)
-   * SuzanneNL (fellow student)
+   * Henrique Peroni (fellow student)
 
 ## Disclaimer
 
