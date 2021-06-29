@@ -7,8 +7,6 @@ from django.db.models.functions import Lower
 from .models import Product, Category, Review
 from .forms import ProductForm, CreateReview
 
-# Create your views here.
-
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -45,7 +43,7 @@ def all_products(request):
                 messages.error(
                     request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-        
+
             queries = Q(name__icontains=query) | Q(
                 description__icontains=query)
             products = products.filter(queries)
@@ -63,7 +61,7 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """ A view to show individual product details & reviews"""
 
     product = get_object_or_404(Product, pk=product_id)
     review_comments = Review.objects.filter(product_id=product_id).order_by(
@@ -107,7 +105,7 @@ def add_product(request):
                 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
- 
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -162,7 +160,7 @@ def delete_product(request, product_id):
 
 def edit_review(request, review_id):
     """ Edit a review """
-    
+
     review = get_object_or_404(Review, pk=review_id)
     if request.method == 'POST':
         form = CreateReview(request.POST, request.FILES, instance=review)
@@ -185,7 +183,7 @@ def edit_review(request, review_id):
 
 def delete_review(request, review_id):
     """ Delete a review """
-  
+
     review = get_object_or_404(Review, pk=review_id)
     review.delete()
     messages.success(request, 'Review deleted')

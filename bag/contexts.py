@@ -3,6 +3,8 @@ from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
+""" returning the context of information displayed in the shopping bag. """
+
 
 def bag_contents(request):
 

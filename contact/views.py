@@ -9,7 +9,7 @@ from .forms import ContactForm
 def contact(request):
     """
     A view to return the contact page and send emails alerting
-    the admin about a new Contact Form been submitted.
+    the admin that a new Contact Form has been submitted.
     """
 
     if request.method == 'POST':
