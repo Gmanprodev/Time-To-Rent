@@ -229,8 +229,8 @@ If you are unable to access the mockup links above please see the mockup images 
 
 ### Database
 
-* Data Schema - 
-Click [here](https://github.com/Gmanprodev/Time-To-Rent/blob/master/documentation/testing/test_images/data_schema.jpg?raw=true)
+* Data Schema 
+![Database Schema](https://github.com/Gmanprodev/Time-To-Rent/blob/master/documentation/testing/test_images/data_schema.png?raw=true)
 
 ### Libraries/Frameworks
 
