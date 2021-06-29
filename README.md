@@ -15,11 +15,11 @@ The website can be viewed on Desktop, Tablet and Mobile devices. Click [here](ht
 
 1. [UX](#ux)
     * [Goals](#goals)
-        * [Renovate-it goals](#renovate-it-goals)
+        * [Time To Rent goals](#time-to-rent-goals)
         * [Business goals](#business-goals)
         * [Customer goals](#customer-goals)
     * [User Stories](#user-stories)
-        * [Renovate-it business](#renovate-it-business)
+        * [Time To Rent business](#time-to-rent-business)
         * [The potential customer](#the-potential-customer)
          * [The UX designer](#the-ux-designer)
     * [Minimum Viable Product](#minimum-viable-product)
@@ -29,22 +29,11 @@ The website can be viewed on Desktop, Tablet and Mobile devices. Click [here](ht
     * [Wireframes](#wireframes)
 2. [Features](#features)
     * [Existing Features](#existing-features)
-        * [Elements seen on the homepage](#elements-seen-on-the-homepage)
-        * [Elements seen on the 404 and 500 pages](#elements-seen-on-the-404-and-500-pages)
-        * [Elements seen on the top tips page](#elements-seen-on-the-top-tips-page)
-        * [Elements seen on the login page](#elements-seen-on-the-login-page)
-        * [Elements seen on the signup page](#elements-seen-on-the-signup-page)
-        * [Elements seen on the profile page](#elements-seen-on-the-profile-page)
-        * [Elements seen on the edit page](#elements-seen-on-the-edit-page)
-        * [Elements seen on the add tips page](#elements-seen-on-the-add-tips-page)
-        * [Logout function](#logout-function)
     * [Features left to implement](#features-left-to-implement)
     * [Bugs and Fixes for Future Releases After Testing](#bugs-and-fixes-for-future-releases-after-testing)
 3. [Technologies Used](#technologies-used)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
-    * [Hosting on GitHub Pages](#hosting-on-github-pages)
-    * [How to run this project locally](#how-to-run-this-project-locally)
 6. [Credits](#credits)
     * [Media](#media)
     * [Acknowledgements](#acknowledgements)
@@ -57,7 +46,7 @@ The website can be viewed on Desktop, Tablet and Mobile devices. Click [here](ht
 
 ### Goals
 
-#### Renovate-it goals
+#### Time To Rent goals
 
 The goal of this website is to allow users, who cannot afford to buy a luxury watch, the ability to rent a luxury watch at a price per week for up to 12 weeks at a time. 
 
@@ -98,7 +87,7 @@ Both business and customer goals are addressed through user stories.
 
 ### User Stories
 
-#### Renovate-it business
+#### Time To Rent business
 
 * As a business, I want my website to display clean, sleek lines and mechanical colours.
 * As a business, I want my website to display simple to follow instructions.
@@ -227,7 +216,7 @@ If you are unable to access the mockup links above please see the mockup images 
 ### Bugs and Fixes for Future Releases After Testing
  
 * **Image Size and Hosting** - The Lighthouse Audit Report will show better performance.
-* **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases. They could also do with more space between the icons.
+* **Secret Key Exposed** - I had mistakenly pushed a commit to github which exposed a secret key. This secret key is still visible in my github repo, however it is no longer valid and cannot be used in conjuction with this site.
 
 ## Technologies Used
 
