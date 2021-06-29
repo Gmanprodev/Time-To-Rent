@@ -155,15 +155,15 @@ The Font I used for this project is **Lato** with the font weights:
 * 400
 * 500
 
-The [Lato](https://fonts.google.com/specimen/Yellowtail?query=yellow) font was chosen for it's easy readability and it's mechanical appearence.
+The [Lato](https://fonts.google.com/specimen/Lato?query=lato) font was chosen for it's easy readability and it's mechanical appearence.
 
 ### Wireframes
 
 I decided that it would be more helpful to have mockups than simple wireframes. The mockups were built in [figma](https://www.figma.com/). 
 
-Link to the mockups can be found [here](https://www.figma.com/file/fkOYNcpb1G4whUHj7TskjS/Renovate.IT?node-id=0%3A1). The mockups were designed for the mobile first approach. I have produced a desktop, tablet and mobile mockup of the main pages.
+Link to the mockups can be found [here](https://www.figma.com/file/OoEwmn5jebm1EZ4M0ybBNE/Untitled?node-id=0%3A1). The mockups were designed for the mobile first approach. I have produced a desktop, tablet and mobile mockup of the main pages.
 
-If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/Renovate-it/tree/master/documentation/wireframes).
+If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/Time-To-Rent/tree/master/documentation/wireframes).
 
 ## Features
 
@@ -229,7 +229,6 @@ If you are unable to access the mockup links above please see the mockup images 
 
 ### Database
 
-* MongoDB - document key vaue pairs database.
 * Data Schema - 
 Click [here](https://github.com/Gmanprodev/Renovate-it/blob/master/documentation/testing/test_images/data_schema.jpg?raw=true)
 
